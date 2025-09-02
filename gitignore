@@ -1,0 +1,47 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_convert/
+
+# Environments
+.venv/
+venv/
+env/
+.env
+.python-version
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Data & experiment outputs (keep large files out of git)
+data/
+datasets/
+models/
+checkpoints/
+logs/
+reports/
+outputs/
+tmp/
+.cache/
+
+# ML weight files
+*.h5
+*.hdf5
+*.keras
+*.ckpt
+*.pt
+*.pth
+
+# Notebooks (optional to ignore exported HTML/PDF)
+*.nb.html
+*.ipynb.pdf

@@ -1,0 +1,10 @@
+# Use one of the two TensorFlow lines depending on your platform:
+tensorflow>=2.12 ; platform_system!="Darwin" or platform_machine!="arm64"
+tensorflow-macos>=2.12 ; platform_system=="Darwin" and platform_machine=="arm64"
+tensorflow-metal>=1.1 ; platform_system=="Darwin" and platform_machine=="arm64"
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+opencv-python
